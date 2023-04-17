@@ -1,9 +1,6 @@
 #pragma once
 
-namespace ura
-{
-
-namespace messaging
+namespace ura::messaging
 {
 
 class Message;
@@ -34,6 +31,4 @@ private:
 
 };
 
-}   /* namespace messaging */
-
-}   /* namespace ura */
+}   /* namespace ura::messaging */

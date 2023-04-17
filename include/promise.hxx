@@ -6,10 +6,7 @@
 #include <semaphore>
 #include <memory>
 
-namespace ura
-{
-
-namespace messaging
+namespace ura::messaging
 {
 
 class Promise: public MessageReceiver
@@ -28,6 +25,4 @@ public:
     virtual ~Promise();
 };
 
-}   /* namespace messaging */
-
-}   /* namespace ura */
+}   /* namespace ura::messaging */
